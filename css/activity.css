@@ -1,0 +1,238 @@
+* {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+#main-toolbar #activity-button {
+  background-image: url(../activity/disfruto.svg);
+}
+
+#prev-bt {
+  background-image: url(../icons/go-previous-paired.svg);
+}
+
+#next-bt {
+  background-image: url(../icons/go-next-paired.svg);
+}
+
+#help {
+  height: 96%;
+}
+
+#canvas {
+  text-align: center;
+  background-color: white;
+}
+
+#points div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.current {
+  background-color: #eebb00;
+}
+
+.current-no {
+  background-color: #d5d5d5;
+}
+
+#fullscreen {
+  background-image: url(../icons/view-fullscreen.svg);
+}
+
+#unfullscreen {
+  background-image: url(../icons/view-return.svg);
+  border: 0;
+  border-radius: 0px;
+  margin: 1px;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  left: 95%;
+  position: absolute;
+}
+
+/* My Styles */
+
+.container {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* Buttons */
+.cont-buttons {
+  display: block;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.button {
+  display: inline-block;
+  width: 20%;
+}
+
+.button button {
+  padding: 0.2em 3em;
+}
+
+.button a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.button .color-sum {
+  background: #EC297B;
+}
+
+.button .color-res {
+  background: #00B0D8;
+}
+
+.button .color-mult {
+  background: #EA922D;
+}
+
+.button .color-div {
+  background: #74B64A;
+}
+
+
+.button .color-sum:hover, .color-res:hover, .color-mult:hover, .color-div:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.button .color-sum:hover {
+  border-color: #EC297B;
+  background: #D20058;
+}
+
+.button .color-res:hover {
+  border-color: #00B0D8;
+  background: #129CBB;
+}
+
+.button .color-mult:hover {
+  border-color: #EA922D;
+  background: #DE8622;
+}
+
+.button .color-div:hover {
+  border-color: #74B64A;
+  background: #4B8A22;
+}
+
+/* Other Pages */
+.cont-page {
+  display: block;
+  background: #F3F3F3;
+  position: relative;
+  top: 1px;
+}
+
+.encabezado {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.controls .points, .level, .exercise {
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 2em;
+  position: relative;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+.controls .points {
+  border: 13px solid #D20058;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+.controls .level {
+  border: 10px solid #129CBB;
+  width: 40px;
+  height: 40px;
+  right: -25px;
+  bottom: -12px;
+  z-index: 2;
+}
+
+.controls .exercise {
+  border: 7px solid #4B8A22;
+  width: 20px;
+  height: 20px;
+  right: -45px;
+  bottom: -30px;
+  z-index: 3;
+}
+
+.controls label {
+  position: relative;
+  top: -45px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.title {
+  display: inline-block;
+  width: 59%;
+  color: #BABDB6;
+  -webkit-text-shadow: 4px 0 0 rgba(0, 0, 0, 0.9);
+  -moz-text-shadow: 4px 0 0 rgba(0, 0, 0, 0.9);
+  -ms-text-shadow: 4px 0 0 rgba(0, 0, 0, 0.9);
+  -o-text-shadow: 4px 0 0 rgba(0, 0, 0, 0.9);
+  text-shadow: 4px 0 0 rgba(0, 0, 0, 0.9);
+}
+
+/* Desing excercise box */
+.level-exercise {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.level-exercise .random, .level-exercise .result {
+  display: block;
+  width: 25%;
+  padding: 0.3em;
+  border-radius: 5px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.level-exercise .random {
+  font-size: 20px;
+  background: #fff;
+}

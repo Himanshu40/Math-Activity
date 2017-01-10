@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="js/engine.js"></script>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="lib/sugar-web/graphics/css/sugar.css">
+		<script data-main="js/loader" src="lib/require.js"></script>
+		<title>Add</title>
+	</head>
+	<body>
+		<div id="main-toolbar" class="toolbar">
+	  <button class="toolbutton" id="activity-button" title="Disfruto"></button>
+	  <hr />
+	  <button class="toolbutton pull-right" id="stop-button" title="Stop"></button>
+	</div>
+	<div id="loader"></div>
+		<div id ="card">
+			<p id="ex1"></p>
+			<p id="score"></p>
+			<p id="question"></p>
+			<p>
+				<input id="answer" onkeypress="handle(event)"/>
+			</p>
+			<p id="feedback"></p>
+			<script>makeQuestion(1);</script>
+		</div>
+	</body>
+</html>
